@@ -1,0 +1,17 @@
+
+h1{
+    text-align: center; 
+}
+table{
+    background-color: rgba(8, 189, 77, 0.671);
+    color:rgb(126, 83, 85);
+    text-align: left;
+
+}
+th,td{
+    border: solid 0.01rem;
+}
+thead{
+    background-color: rgb(58, 145, 77);
+    color:rgb(243, 193, 193);
+}
