@@ -82,6 +82,7 @@ section.activi{
 /*Inscripcion*/
 form#inscripcion {
     padding: 30px;
+    width: 650px;
 }
 form#inscripcion fieldset {
     color: rgb(237, 255, 71);
