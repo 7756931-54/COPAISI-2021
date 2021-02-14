@@ -1,20 +1,20 @@
 body{
-    background: rgb(1,34,200);
-    background: radial-gradient(circle, rgba(1,34,200,1) 0%, rgba(73,254,124,1) 100%);
-    margin-left: 0px;
-    margin-top: 2px;
-    margin-right: 0px;
+	background-image: linear-gradient( 76.3deg,  rgba(44,62,78,1) 12.6%, rgb(76, 117, 150) 82.8% );  
+	margin: 0px;
+	padding: 0px;
 }
 #menu {
-	background: #33425B;
+	border-radius: 1px;
+	background: #020218;
+	box-shadow: inset -5px 5px 0px #01010a,
+            inset 5px -5px 0px #030326;
     font-family: 'Lexend Mega', sans-serif;
 	color: #FFF;
 	height: 41px;
 	padding-left: 18px;
-	border-radius: 3px;
 	border: 1px double #6D6D6D;
 }
-#congreso2 {
+#congreso2{
     width: 52px;
 }
 #menu ul, #menu li {
@@ -43,7 +43,7 @@ body{
 	margin-left: 5px;
 }
 #menu li a:hover {
-	color: #0099CC;
+	color: #00cc7e;
 	background: #F2F2F2;
 }
 #menu input {
@@ -108,15 +108,29 @@ body{
     background-repeat: no-repeat;
     background-origin:padding-box;
     background-size: cover;
-    align-content: center;
     text-align: center;
-    margin-right: 0px;
-    margin-top: 0px;
+    margin:0px;
 }
 #textoPresentacion h1, h2, h3{
     font-family: 'Lexend Mega', sans-serif;
     text-shadow: 2px 4px 2px rgb(255, 227, 232);
     text-align: center;
     font-size:30px;  
-
+}
+section.redes label{
+	cursor: cell;
+}
+footer {
+	color: aliceblue;
+	text-align: center;
+	text-shadow: -3px 1px 4px rgba(22, 38, 88, 0.69);
+	
+}
+footer.sub{
+	height: 30px;
+	background: rgb(0,1,5);
+	background: linear-gradient(90deg, rgba(0,1,5,1) 0%, rgb(1, 1, 59) 100%);
+	color: aliceblue;
+	text-align: center;
+	text-shadow: -3px 1px 4px rgba(22, 38, 88, 0.69);
 }
