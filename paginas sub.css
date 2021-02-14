@@ -1,10 +1,65 @@
-
-h1{
+/*presentacion css*/
+article#presentacion{
+    color:antiquewhite;
+    text-align: left;
+    background-size: cover;
+    font-family: 'Lexend Mega', sans-serif;
+    margin:0px;
+    height: min-content;
+}
+#unapuno{
+    width: 500px;
+    box-shadow:6px 6px 0px 2px #b6a2dd;
+-moz-box-shadow:6px 6px 0px 2px #b6a2dd;
+-webkit-box-shadow:6px 6px 0px 2px #b6a2dd;
+margin-right: 10px;
+}
+#div1{
+    float: left;
+}
+/*ponentes*/
+body.sub{
+    margin: 0px;
+    padding: 0px;
+}
+article#ponentes{
+    min-height:auto;
+    padding-left: 0px;
+    margin-left: 0px;
+}
+section#descripcion{
+    margin: 9px;
+    width: 220px;
+    height: 370px;
+    text-align: center;
+    color: aliceblue;
+    border-radius: 18px;
+    background: #d14c1f;
+    box-shadow: inset 10px -10px 20px #5e220e,
+            inset -10px 10px 20px #ff7630;
+    text-shadow: 1px 0px 5px rgba(237, 145, 71, 0.86);
+    font-size: 17px;
+    float:left;
+}
+img#Perfil{
+    width: 200px;
+    margin: 5px;   
+}
+/*Cronograma*/ 
+article.cronos{
+    display: table;
     text-align: center; 
+    font-size: 22px;  
+    font-family: 'Lexend Mega', sans-serif;
+}
+#title{
+    text-align: center; 
+    font-size: 35px;
+    text-shadow: -3px 0px 2px rgba(186, 152, 255, 0.77);
 }
 table{
-    background-color: rgba(8, 189, 77, 0.671);
-    color:rgb(126, 83, 85);
+    background-color: rgba(7, 95, 110, 0.541);
+    color:rgb(218, 155, 181);
     text-align: left;
 
 }
@@ -12,6 +67,69 @@ th,td{
     border: solid 0.01rem;
 }
 thead{
-    background-color: rgb(58, 145, 77);
+    background-color: rgba(59, 80, 128, 0.562);
     color:rgb(243, 193, 193);
 }
+/*Actividades*/
+section.activi{
+    font-size: x-large;
+    padding-bottom: 100px;
+    text-align: center;
+    border-radius: 18px;
+    background: #1fd154;
+    box-shadow: inset -12px -12px 24px #0e5e26,inset 12px 12px 24px #30ff82;
+}
+/*Inscripcion*/
+form#inscripcion {
+    padding: 30px;
+}
+form#inscripcion fieldset {
+    color: rgb(237, 255, 71);
+    font-style:inherit;
+    border: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+form#inscripcion legend {
+    color: rgb(162, 173, 211);
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 3px;}
+form#inscripcion ol li {
+    background:rgba(135, 222, 174, 0.295);
+    width:500px ;
+    border-color:cornsilk;
+    border-style:solid;
+    border-radius: 8px;
+    border-width: 3px;
+    line-height: 30px;
+    list-style: none;
+    padding: 5px;
+    float: left; 
+    margin-bottom: 2px;}
+form#inscripcion label {
+    float: left;
+    font-size: 15px;
+    width: 200px;
+    height: 50px;}
+form#inscripcion input, select {
+    background: #d8e9aba4;
+    border:floralwhite;
+    border-radius: 9px;
+    font-style:oblique;
+    outline:none;
+    padding: 5px;
+    margin:2px;
+    width: 250px;
+    float: left;
+    margin-right: 3px;}
+form#inscripcion button {
+    border-radius: 55px;
+    background: #060901;
+    box-shadow: inset 5px 5px 8px #020400,inset -5px -5px 8px #0a0e02;
+    width: 400px;
+    color: rgb(237, 255, 71);
+    font-style:inherit;
+    font-size: 20px;
+    margin-left:100px;}
+/*programa*/
